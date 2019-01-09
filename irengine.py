@@ -4,8 +4,8 @@
 Basic information retrieval (IR) engine.
 '''
 
-def normalize_text():
-    pass
+def tokenize(text):
+def normalize(t_text):
 
 def process_corpus():
     pass
