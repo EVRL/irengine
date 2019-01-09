@@ -12,6 +12,7 @@ def tokenize(text):
     return t_text
 
 def normalize(t_text):
+    pass
 
 def process_corpus():
     pass
