@@ -9,5 +9,10 @@ class TestIREngine(unittest.TestCase):
         self.assertEqual(test.tokenize(string), 
                          ["how", "now", "brown", "crown"])
 
+    def test_normalize(self):
+        """returns NORMALIZED tokens."""
+        self.assertEqual(test.normalize("Test"), "test")
+        self.assertEqual(test.normalize("test"), "test")
+
 if __name__ == "__main__":
     unittest.main()
