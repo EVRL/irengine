@@ -8,10 +8,6 @@ class TestIREngine(unittest.TestCase):
         string = "how now brown crown"
         self.assertEqual(test.tokenize(string), 
                          ["how", "now", "brown", "crown"])
-        with self.assertRaises(TypeError):
-            test.tokenize(True)
-            test.tokenize(1)
-            test.tokenize(["True", "1"])
 
     def test_normalize(self):
         """returns NORMALIZED tokens."""
