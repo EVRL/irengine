@@ -12,7 +12,11 @@ def tokenize(text):
     return t_text
 
 def normalize(t_text):
-    pass
+    '''
+    normlize(t_text: list) -> list
+    '''
+    n_text = t_text.lower()
+    return n_text
 
 def process_corpus():
     pass
