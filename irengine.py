@@ -4,7 +4,14 @@
 Basic information retrieval (IR) engine.
 '''
 
-def normalize_text():
+def tokenize(text):
+    '''
+    tokenize(text) -> list
+    '''
+    t_text = text.split()
+    return t_text
+
+def normalize(t_text):
     pass
 
 def process_corpus():
